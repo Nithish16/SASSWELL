@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+/* -----Navbar------ */
+
+.slide1-section {
+  background: linear-gradient(90deg, #cfa8eb, #959fe4);
+  height: max-content;
+}
+
+.btn-bg {
+  background-color: rgb(60, 54, 46);
+  border-radius: 2px;
+}
+
+/* -----section1------ */
+
+.section1-contents {
+  padding-top: 45px;
+  padding-bottom: 80px;
+}
+
+.section1-header {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 85px;
+  text-align: center;
+}
+
+.section1-para {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* -------Section2-------- */
+
+.slide2-section {
+  width: 100%;
+  height: max-content;
+  background-color: lightgrey;
+  padding-bottom: 60px;
+}
+
+.first-div-spacing {
+  padding-top: 60px;
+}
+
+.our-mission {
+  color: #a16cc7;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.header-first-div {
+  color: black;
+  font-weight: 700;
+  padding: 10px 0px 30px 0px;
+}
+
+/* .fa-regular {
+  color: #a16cc7;
+  width: 25px;
+  height: 25px;
+} */
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope {
+  font-size: 50px !important;
+  padding: 30px 0px 20px 20px;
+}
+
+.carousel-1,
+.carousel-2,
+.carousel-3 {
+  background-color: white;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.content {
+  padding: 0px 20px;
+}
+
+.carousel-1 span,
+.carousel-2 span,
+.carousel-3 span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn1 {
+  background: linear-gradient(-90deg, #5AB2E0, #62DCBC);
+  width: 250px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+.msg-box {
+  height: 100px;
+}
+
+/* --------Slide3-------- */
+
+
+.slide3-section {
+  width: 100%;
+  height: max-content;
+  background-color: #d3a8f1;
+}
+
+.slide3-our-mission {
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.box-1 span {
+  height: 50px;
+  padding: 5px 0px;
+}
+
+.slide3-section-header {
+  padding: 20px 0px;
+}
+
+.slide3-our-mission {
+  color: aliceblue;
+}
+
+.txt-1 {
+  width: max-content;
+  height: max-content;
+  background-color: #62DCBC;
+  padding: 5px 35px;
+}
+
+.first-div {
+  padding-top: 60px;
+}
+
+.slide3-links {
+  width: 50%;
+}
+
+.slide3-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.slide3-links .btn {
+  background-color: #62DCBC;
+  padding: 5px 30px;
+}
+
+.contents {
+  padding: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: #5AB2E0;
+  margin-top: 10px;
+}
+
+
+/* --------Footer------- */
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  width: 500px;
+}
+
+.icons-section-1,
+.icons-section-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #000;
+  height: max-content;
+}
+
+.company-name {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.fa {
+  color: #08040b;
+  margin-bottom: 0px;
+}
+
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px
+}
+
+.copyright {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.icons .fa {
+  padding: 0px 10px;
+  color: #fff;
+}
+
+.content-div {
+  margin-left: 30px;
+}
+
+.card-border {
+  border-radius: 0.5rem !important;
+}
+
+.card {
+  margin: 10px;
+}
+
+/* -------Media Query--------- */
+
+@media only screen and (max-width: 576px) {
+
+  .slide3-section {
+    height: max-content;
+  }
+
+  .flex-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px
+  }
+}

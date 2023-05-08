@@ -1,0 +1,234 @@
+/* font-family: 'Montserrat', sans-serif;
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+/* -----Navbar------ */
+
+.slide1-section {
+  background: linear-gradient(90deg, #cfa8eb, #959fe4);
+  height: max-content;
+}
+
+.btn-bg {
+  background-color: antiquewhite;
+  border-radius: 2px;
+}
+
+/* -----section1------ */
+
+.section1-contents {
+  padding-top: 45px;
+  padding-bottom: 80px;
+}
+
+.section1-header {
+  /* padding-top: 80px; */
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  text-align: center;
+}
+
+.section1-para {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* -----section2------ */
+
+.slide2-section {
+  height: 100vh;
+}
+
+.header-first-div,
+.header-second-div {
+  padding: 20px 0px;
+}
+
+.first-div-spacing {
+  padding-top: 60px;
+}
+
+.second-div-spacing {
+  padding-bottom: 50px;
+}
+
+.img-first-div {
+  margin-bottom: 30px;
+}
+
+.our-mission {
+  color: #a16cc7;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* -----section3------ */
+
+.slide3-section {
+  width: 100%;
+  height: max-content;
+  background-color: #d3a8f1;
+}
+
+.box-1 span {
+  height: 50px;
+  padding: 5px 0px;
+}
+
+.slide3-section-header {
+  padding: 20px 0px;
+}
+
+.mb-10 {
+  padding-bottom: 100px;
+}
+
+.slide3-our-mission {
+  color: aliceblue;
+}
+
+.first-div {
+  padding-top: 60px;
+}
+
+.card-img-top {
+  margin-top: 12px;
+}
+
+/* -----section4------ */
+
+.slide4-section {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: whitesmoke;
+}
+
+.slide4-our-mission {
+  color: #d3a8f1;
+}
+
+.slide4-section-header {
+  padding: 5px 0px;
+}
+
+.slide4-section-para {
+  padding-bottom: 20px;
+}
+
+.fa-regular {
+  color: #a16cc7;
+  width: 25px;
+  height: 25px;
+}
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope {
+  font-size: 50px !important;
+  padding: 30px 0px 20px 20px;
+}
+
+.carousel-1,
+.carousel-2,
+.carousel-3 {
+  background-color: white;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.content {
+  padding: 0px 20px;
+}
+
+.carousel-1 span,
+.carousel-2 span,
+.carousel-3 span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.slide4-form-header {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.send-message {
+  padding-bottom: 30px;
+}
+
+.msg-box {
+  height: 150px;
+}
+
+.btn-primary {
+  width: 200px;
+}
+
+/* Media querys */
+
+@media only screen and (max-width: 1400px) {
+  .card {
+    margin-bottom: 20px;
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    .section1-para {
+      width: 100%;
+      text-align: center;
+    }
+
+    .polkone {
+      order: 2;
+    }
+
+    .polktwo {
+      order: 1;
+      text-align: center;
+    }
+
+    .darkone {
+      text-align: center;
+    }
+
+    .our-mission {
+      padding-top: 30px;
+    }
+
+    .img-first-div {
+      margin-bottom: 100px;
+    }
+
+    .card {
+      margin: 10px auto;
+    }
+
+    .first-div {
+      text-align: center;
+    }
+
+    .card {
+      margin-bottom: 20px;
+    }
+
+  }
+}
